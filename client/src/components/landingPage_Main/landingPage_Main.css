@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.main {
+    background: url(../../assets/64247_gaming-collage-wallpaper.jpg);
+    width: auto;
+    height: 600px;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+}
+
+.start_button {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    border-radius: 12px;
+    font-family: 'Press Start 2P', cursive;
+    height: 90px;
+    width: 250px;
+}
+

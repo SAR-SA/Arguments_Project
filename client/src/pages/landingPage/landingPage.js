@@ -1,5 +1,6 @@
 import React from 'react';
-import Top from '../components/landingPage_Top';
+import Top from '../../components/landingPage_Top/landingPage_Top';
+import Main from '../../components/landingPage_Main/landingPage_Main';
 import './landingPage.css';
 // import "../styles/Intro.css";
 // import { Button } from "react-bootstrap";
@@ -10,9 +11,7 @@ const landingPage = () => {
     return (
         <div>
         <Top />
-        <div className="introDiv">
-            <h1>Landing Page</h1>
-        </div>
+        <Main />
         </div>
     );
 };
