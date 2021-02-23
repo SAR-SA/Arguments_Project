@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from "../logo.svg";
-import "./App.css";
-import landingPage from "../pages/landingPage/landingPage";
+import landingPage from "./pages/landingPage/landingPage";
+import searchPage from "./pages/searchPage/searchPage";
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <div>
           <Switch>
             <Route exact path="/" component={landingPage} />
+            <Route exact path="/search" component={searchPage} />
             {/* <Route exact path="/intro" component={Intro} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
